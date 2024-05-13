@@ -39,6 +39,14 @@ function Header() {
                         Contact us
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink
+                    to="/Github"
+                    className={({isActive})=>`${isActive?"text-orange-600":"text-black-900"} font-semibold hover:text-orange-700 duration-300`}
+                    >
+                        Github
+                    </NavLink>
+                </li>
             </ul>
         </div>
         <div className='flex items-center gap-x-10 my-2'>
